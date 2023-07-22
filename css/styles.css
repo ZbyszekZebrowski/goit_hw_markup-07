@@ -22,8 +22,8 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.header-nav-list:hover,
+.header-nav-list:focus {
   color: var(--ocean);
 }
 
