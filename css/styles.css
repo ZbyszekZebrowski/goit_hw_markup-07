@@ -439,7 +439,16 @@ body {
 }
 
 /*-------------------------- Footer --------------------------*/
+/* Global styles */
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f5f9;
+}
+
+/* Footer styles */
 .footer {
   background: var(--navy-blue);
   padding-top: 100px;
@@ -451,6 +460,7 @@ body {
   align-items: baseline;
 }
 
+/* Logo and Content styles */
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -475,6 +485,7 @@ body {
   margin-top: 16px;
 }
 
+/* Social Media styles */
 .footer-wrap {
   margin-left: 120px;
 }
@@ -518,6 +529,7 @@ body {
   fill: var(--cloud);
 }
 
+/* Subscribe Form styles */
 .footer-subsc-wrap {
   width: 453px;
   margin-left: 80px;
@@ -534,9 +546,6 @@ body {
 .footer-subsc-form {
   display: flex;
 }
-
-/* .footer-subsc-label {
-} */
 
 .footer-subsc-input {
   width: 264px;
@@ -580,6 +589,10 @@ body {
 .footer-subsc-button:focus,
 .footer-subsc-button:hover {
   background-color: var(--ocean);
+}
+
+.footer-subsc-button-icon {
+  margin-left: 16px;
 }
 
 /* .footer-subsc-button-icon {
