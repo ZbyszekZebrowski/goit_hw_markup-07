@@ -448,6 +448,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -515,6 +516,70 @@ body {
 
 .footer-soc-icon {
   fill: var(--cloud);
+}
+
+.footer-subsc-wrap {
+  width: 453px;
+  margin-left: 80px;
+}
+
+.footer-subsc-name {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-subsc-form {
+  display: flex;
+}
+
+/* .footer-subsc-label {
+} */
+
+.footer-subsc-input {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: var(--white);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  outline: none;
+}
+
+.footer-subsc-input::placeholder {
+  color: var(--white);
+}
+
+.footer-subsc-button {
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  border: transparent;
+  background-color: var(--iris);
+  color: var(--white);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.footer-subsc-button:focus,
+.footer-subsc-button:hover {
+  background-color: var(--ocean);
 }
 
 /*-------------------------- Portfolio page --------------------------*/
