@@ -735,7 +735,9 @@ body {
 }
 
 .form-div {
-    margin-bottom: 8px
+    margin-bottom: 8px ;
+    display: flex;
+    gap: 24px;
 }
 
 .field-name {
