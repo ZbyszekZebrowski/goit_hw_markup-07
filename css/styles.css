@@ -713,12 +713,12 @@ body {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Modal Window  */
+--------------------/* Modal Window  */-----------------
 
 .modal {
   position: fixed;
   opacity: 1;
-  visibility: visible;
+  visibility: visible; 
   transition-property: visibility, opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -786,7 +786,7 @@ body {
 
 
 .leave-your-contacts {
-  color: var(--navy-background-color);
+  color: var(--#2E2F42);
   display: block;
   text-align: center;
   font-size: 16px;
@@ -884,7 +884,7 @@ body {
 }
 
 .checkbox-div {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .checkbox-span {
