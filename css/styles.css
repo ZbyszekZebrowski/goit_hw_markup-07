@@ -817,7 +817,7 @@ fill: var(--purple-color)
 }
 
 .order-service-comment:focus {
-    border-color: var(--purple-color)
+    border-color: var(--iris)
 }
 
 .order-service-comment {
