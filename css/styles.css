@@ -868,7 +868,7 @@ fill: var(--purple-color)
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.48px;
-    color: var(--lightslate-color);
+    color: var(--light-slate);
 }
 
 .checkbox-policy {
