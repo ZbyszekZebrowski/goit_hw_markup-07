@@ -771,7 +771,10 @@ fill: var(--additional-background-color);
     margin-bottom: 4px;
     color: var(--light-slate);
     background-color: transparent;
+}
 
+.field-name :focus{
+    border-color: #4D5AE5;
 }
 
 .service-request {
