@@ -615,7 +615,7 @@ fill: var(--additional-background-color);
     color: var(--white);
 }
 
-.form-email {
+.form-email { 
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -634,13 +634,13 @@ fill: var(--additional-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--purple-color);
+    background-color: var(--iris);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--additional-text-color);
+    color: var(--white);
     cursor: pointer;
     border: none;
     border-radius: 4px;
