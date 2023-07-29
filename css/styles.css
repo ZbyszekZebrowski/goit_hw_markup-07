@@ -783,6 +783,7 @@ fill: var(--additional-background-color);
     padding-left: 38px;
     border-radius: 4px;
     font-size: 18px;
+    border-color: #4D5AE5;
     outline: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition-property: border-color;
