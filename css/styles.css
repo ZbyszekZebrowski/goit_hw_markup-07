@@ -696,7 +696,7 @@ fill: var(--additional-background-color);
     left: 50%;
     top: 50%;
     border-radius: 4px;
-    background: var(--dairy-color);
+    background: var(--dairy, #FCFCFC);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     transition-property: transform;
     transition-duration: 250ms;
@@ -726,11 +726,7 @@ fill: var(--additional-background-color);
         
 }
 
-.close-button:hover,
-.close-button:focus {
-    background-color: #404bbf;
-    border: none;
-}
+
 
 .modal-btn-close {
    transition-property: fill;
@@ -740,7 +736,9 @@ fill: var(--additional-background-color);
 
 .close-button:hover,
 .close-button:focus{
-    fill:#ffffff; 
+    fill: var(--cornflower, #E7E9FC);
+        stroke-width: 1px;
+        stroke: rgba(0, 0, 0, 0.10);
 }
 
 
@@ -780,7 +778,6 @@ fill: var(--additional-background-color);
     padding-left: 38px;
     border-radius: 4px;
     font-size: 18px;
-    background-color:#4D5AE5;
     outline: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition-property: border-color;
@@ -788,9 +785,9 @@ fill: var(--additional-background-color);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-request:focus {
-    border-color: var(--iris);
-    outline: transparent;
+.service-request:focus,:hover{
+border-color:#4d5ae5;
+
 }
 
 .form-field-icon {
@@ -894,7 +891,7 @@ fill: var(--purple-color)
 
 .review-form-policy-link {
     line-height: 1.33;
-    color: var(--purple-color);
+    color: var(--iris);
 }
 
 .send-request-button {
@@ -906,9 +903,9 @@ fill: var(--purple-color)
     height: 56px;
     border-radius: 4px;
     font-weight: 500;
-    background: var(--purple-color);
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: var(--additional-text-color);
+    color: var(--white);
     font-size: 16px;
     font-weight: 500px;
     line-height: 1.5;
