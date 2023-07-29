@@ -876,6 +876,7 @@ fill: var(--purple-color)
     top: 0;
     left: 0;
     background-color: transparent;
+    fill: transparent;
 }
 
 .checkbox-icon {
