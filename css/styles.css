@@ -885,9 +885,9 @@ fill: var(--purple-color)
 }
 
 .checkbox-policy:checked + .checkbox-label .checkbox-span {
-    background-color: var(--ocean-button-color);
+    background-color: var(--ocean);
     border: none;
-    fill: var(--additional-background-color);
+    fill: var(--cloud);
 }
 
 .review-form-policy-link {
