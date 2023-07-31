@@ -1140,7 +1140,7 @@ body {
 
 .send-btn-footer:hover,
 .send-btn-footer:focus {
-  background-color: var(--ocean-button-color);
+  background-color: var(--ocean);
 }
 
 .icon-send {
@@ -1531,6 +1531,16 @@ body {
   height: 40px;
   background-color: var(--iris);
   border-radius: 50%;
+  
+}
+.modal-social-link:hover,
+.modal-social-link:focus {
+    background-color: var(--ocean);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #31D0AA;
 }
 
 .active-touch {
