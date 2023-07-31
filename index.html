@@ -63,6 +63,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="button-open js-open-menu">
+          <svg class="icon-menu-open" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -419,28 +424,46 @@
             <li class="icons-list-footer">
               <a class="social-link-footer" href="">
                 <svg class="social-icons-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
+                  <use
+                    href="./images/icons.svg#icon-instagram"
+                    width="24"
+                    height="24"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="icons-list-footer">
               <a class="social-link-footer" href="">
                 <svg class="social-icons-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
+                  <use
+                    href="./images/icons.svg#icon-twitter"
+                    width="24"
+                    height="24"
+                  >
+                    >
+                  </use>
                 </svg>
               </a>
             </li>
             <li class="icons-list-footer">
               <a class="social-link-footer" href="">
                 <svg class="social-icons-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
+                  <use
+                    href="./images/icons.svg#icon-facebook"
+                    width="24"
+                    height="24"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="icons-list-footer">
               <a class="social-link-footer" href="">
                 <svg class="social-icons-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
+                  <use
+                    href="./images/icons.svg#icon-linkedin2"
+                    width="24"
+                    height="24"
+                  ></use>
                 </svg>
               </a>
             </li>
@@ -464,7 +487,7 @@
             <button type="submit" class="send-btn-footer">
               Subscribe
               <svg class="icon-send" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send-1"></use>
+                <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
           </form>
@@ -479,7 +502,7 @@
       <div class="backdrop">
         <button class="close-button" type="button" data-modal-close>
           <svg class="modal-btn-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-cross"></use>
+            <use href="./images/icons.svg#icon-menu-close"></use>
           </svg>
         </button>
 
@@ -510,7 +533,7 @@
                 height="24"
                 aria-label="users-avatar"
               >
-                <use href="./images/icons.svg#icon-person-black"></use>
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
@@ -588,7 +611,11 @@
             <label class="checkbox-label" for="user-privacy">
               <span class="checkbox-span">
                 <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-policy-click"></use>
+                  <use class="checked" href="./images/icons.svg#check"></use>
+                  <use
+                    class="unchecked"
+                    href="./images/icons.svg#uncheck"
+                  ></use>
                 </svg>
               </span>
               I accept the terms and conditions of the&nbsp;
@@ -603,6 +630,73 @@
         </form>
       </div>
     </div>
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu-close js-close-menu">
+        <svg class="burger-icon-close" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li>
+          <a class="mobile-menu-link active-touch" href="./index.html">
+            Studio
+          </a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="./portfolio.html"> Portfolio </a>
+        </li>
+        <li><a class="mobile-menu-link" href="#"> Contacts </a></li>
+      </ul>
+      <div class="modal-wrapper">
+        <ul class="modal-wrapper-list">
+          <li class="modal-wrapper-item">
+            <a class="modal-wrapper-tel link" href="tel:+110001111111">
+              +11 (000) 111-11-11
+            </a>
+          </li>
+          <li>
+            <a class="modal-wrapper-mail link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+        <ul class="modal-social-list">
+          <li class="modal-social-item">
+            <a href="#" class="modal-social-link">
+              <svg class="socials-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="modal-social-item">
+            <a href="#" class="modal-social-link">
+              <svg class="socials-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="modal-social-item">
+            <a href="#" class="modal-social-link">
+              <svg class="socials-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="modal-social-item">
+            <a href="#" class="modal-social-link">
+              <svg class="socials-icon" width="16px" height="16px">
+                <use href="./images/icons.svg#icon-linkedin2"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./JS/modal.js"></script>
+    <script src="./JS/mobile-menu.js"></script>
   </body>
 </html>
